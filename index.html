@@ -7,10 +7,15 @@
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Canvas Background -->
+  <canvas id="bg-animation"></canvas>
+
   <!-- HEADER -->
   <header>
     <a href="#" class="logo">Main</a>
@@ -42,12 +47,10 @@
         <a href="https://tiktok.com/@Yorr271" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
       </div>
 
-      <!-- Hire Me Button -->
-<a href="#contact" class="btn">Hire Me</a>
-
-<!-- View My Portfolio Button -->
-<a href="https://bit.ly/4nyURNv" target="_blank" class="btn">View My CV</a>
-
+      <!-- Buttons -->
+      <a href="#contact" class="btn">Hire Me</a>
+      <a href="https://bit.ly/4nyURNv" target="_blank" class="btn">View My CV</a>
+    </div>
 
     <div class="home-img">
       <img src="YOR.jpg" alt="Profile Image">
@@ -65,15 +68,14 @@
   </section>
 
   <!-- SKILLS -->
-<section id="skills">
-  <h2 class="section-title">Skills</h2>
-  <div class="experience-container">
-    <div class="experience-box">💻 HTML, CSS, JavaScript</div>
-    <div class="experience-box">🔧 Git & GitHub</div>
-    <div class="experience-box">🗄️ Database (MySQL, GitBash)</div>
-  </div>
-</section>
-
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="experience-container">
+      <div class="experience-box">💻 HTML, CSS, JavaScript</div>
+      <div class="experience-box">🔧 Git & GitHub</div>
+      <div class="experience-box">🗄️ Database (MySQL, GitBash)</div>
+    </div>
+  </section>
 
   <!-- EDUCATION -->
   <section id="education">
@@ -84,28 +86,25 @@
   </section>
 
   <!-- EXPERIENCE -->
-<section id="experience" class="experience">
-  <h2 class="section-title">Experience</h2>
-  <div class="experience-container">
-    
-    <div class="experience-box">
-      <h3>💻 Programming & Web Development</h3>
-      <p>Gained hands-on practice in programming, database management, and web development through academic projects.</p>
+  <section id="experience" class="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="experience-container">
+      <div class="experience-box">
+        <h3>💻 Programming & Web Development</h3>
+        <p>Gained hands-on practice in programming, database management, and web development through academic projects.</p>
+      </div>
+
+      <div class="experience-box">
+        <h3>🛠 IT Support & Networking</h3>
+        <p>Worked on troubleshooting, networking setup, and system maintenance to strengthen technical skills.</p>
+      </div>
+
+      <div class="experience-box">
+        <h3>🤝 Team Collaboration</h3>
+        <p>Collaborated in group projects, applying problem-solving and teamwork in real-world scenarios.</p>
+      </div>
     </div>
-
-    <div class="experience-box">
-      <h3>🛠 IT Support & Networking</h3>
-      <p>Worked on troubleshooting, networking setup, and system maintenance to strengthen technical skills.</p>
-    </div>
-
-    <div class="experience-box">
-      <h3>🤝 Team Collaboration</h3>
-      <p>Collaborated in group projects, applying problem-solving and teamwork in real-world scenarios.</p>
-    </div>
-
-  </div>
-</section>
-
+  </section>
 
   <!-- CONTACT -->
   <section id="contact">
@@ -129,10 +128,12 @@
     </div>
   </section>
 
+  <!-- FOOTER -->
   <footer>
     <p>© 2025 Royneil Bacalla | All Rights Reserved</p>
   </footer>
 
+  <!-- Scripts -->
   <script src="script.js"></script>
 </body>
 </html>
